@@ -17,6 +17,7 @@ rpm-ostree install screen
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
+rpm-ostree install corectrl # install for CPU/GPU power control. Some extra user configuration required after install
 
 #### Example for enabling a System Unit File
 
