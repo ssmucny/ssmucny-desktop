@@ -15,6 +15,9 @@ RELEASE="$(rpm -E %fedora)"
 # install for CPU/GPU power control
 rpm-ostree install corectrl
 
+# install VM runtimes
+rpm-ostree install java-17-openjdk dotnet-runtime-9.0
+
 # IME packages
 rpm-ostree install fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-mozc fcitx5-autostart imsettings im-chooser
 
