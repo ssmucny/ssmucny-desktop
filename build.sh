@@ -22,7 +22,7 @@ rpm-ostree install java-17-openjdk dotnet-runtime-8.0 dotnet-runtime-9.0
 rpm-ostree install fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-mozc fcitx5-autostart imsettings im-chooser
 
 # netbird VPN
-sudo tee /etc/yum.repos.d/netbird.repo <<EOF
+tee /etc/yum.repos.d/netbird.repo <<EOF
 [netbird]
 name=netbird
 baseurl=https://pkgs.netbird.io/yum/
