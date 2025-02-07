@@ -21,6 +21,19 @@ rpm-ostree install java-17-openjdk dotnet-runtime-8.0 dotnet-runtime-9.0
 # IME packages
 rpm-ostree install fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-mozc fcitx5-autostart imsettings im-chooser
 
+# netbird VPN
+sudo tee /etc/yum.repos.d/netbird.repo <<EOF
+[netbird]
+name=netbird
+baseurl=https://pkgs.netbird.io/yum/
+enabled=1
+gpgcheck=0
+gpgkey=https://pkgs.netbird.io/yum/repodata/repomd.xml.key
+repo_gpgcheck=1
+EOF
+
+rpm-ostree install libappindicator-gtk3 libappindicator netbird-ui
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
