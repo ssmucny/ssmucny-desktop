@@ -22,7 +22,7 @@ rpm-ostree install java-latest-openjdk dotnet-runtime-8.0 dotnet-runtime-9.0
 #rpm-ostree install fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-mozc fcitx5-autostart imsettings im-chooser
 
 # Tools
-# rpm-ostree install graphviz
+rpm-ostree install graphviz
 
 # netbird VPN
 # tee /etc/yum.repos.d/netbird.repo <<EOF
