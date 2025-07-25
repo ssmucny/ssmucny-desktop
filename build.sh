@@ -15,8 +15,8 @@ RELEASE="$(rpm -E %fedora)"
 # install for CPU/GPU power control
 rpm-ostree install corectrl
 
-# install VM runtimes
-rpm-ostree install java-latest-openjdk dotnet-sdk-8.0 dotnet-sdk-9.0
+# install VM runtimes and SDK things
+rpm-ostree install java-latest-openjdk dotnet-sdk-8.0 dotnet-sdk-9.0 nodejs
 
 # IME packages (Japanese language input)
 #rpm-ostree install fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool fcitx5-mozc fcitx5-autostart imsettings im-chooser
