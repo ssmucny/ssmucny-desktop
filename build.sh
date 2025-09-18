@@ -27,8 +27,8 @@ rpm-ostree install graphviz
 
 ## VS Codium
 
-rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-rpm-ostree install codium
+# rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+# rpm-ostree install codium
 
 # rpm-ostree install libappindicator-gtk3 libappindicator netbird-ui
 
