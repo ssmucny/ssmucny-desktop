@@ -16,7 +16,7 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install corectrl
 
 # install VM runtimes and SDK things
-rpm-ostree install java-latest-openjdk dotnet-sdk-8.0 dotnet-sdk-9.0 dotnet-sdk-10.0 nodejs wivrn-dashboard
+rpm-ostree install java-latest-openjdk dotnet-sdk-8.0 dotnet-sdk-9.0 dotnet-sdk-10.0 nodejs wivrn wivrn-dashboard
 
 # IME packages (Japanese language input)
 rpm-ostree install fcitx5-autostart fcitx5-configtool
