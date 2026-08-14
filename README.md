@@ -1,3 +1,10 @@
+# Switching
+
+To switch from an existing ublue branch to this run:
+```bash
+sudo bootc switch --enforce-container-sigpolicy "ghcr.io/ssmucny/ssmucny-desktop:latest"
+```
+
 # image-template
 
 # Purpose
