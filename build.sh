@@ -17,8 +17,7 @@ PACKAGES=(
     
     # install VM runtimes and SDK things
     java-latest-openjdk
-    dotnet-sdk-9.0
-    dotnet-sdk-10.0
+    dotnet-sdk-11.0
     nodejs 
     
     # Tools
